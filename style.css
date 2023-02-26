@@ -182,9 +182,11 @@ main {
 /*Sección de la columna derecha*/
 
 .titulo-principal {
-  font-size: 40px;
   text-align: center;
   margin-top: 0px;
+}
+.titulo-principal h1 {
+  font-size: 60px;
 }
 
 .titulo-derecho {
@@ -239,4 +241,68 @@ main {
 .experiencia-3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+/*Inicio responsive*/
+
+/*Celular muy pequeño*/
+@media (max-width: 359px) {
+  .titulo-principal h1 {
+    font-size: 32px;
+  }
+  .titulo-derecho-1 {
+    font-size: 19px;
+  }
+  .titulo-derecho {
+    font-size: 19px;
+  }
+  h4 {
+    margin-inline-end: 1em;
+  }
+  .titulo-izquierdo {
+    font-size: 19px;
+  }
+}
+
+/*Celular*/
+@media (max-width: 767px) {
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 30px 20px;
+  }
+  .decoracion-1 {
+    height: 210px;
+  }
+  .decoracion-2 {
+    height: 210px;
+  }
+  .decoracion-3 {
+    display: none;
+  }
+  .titulo-principal h1 {
+    font-size: 40px;
+  }
+  .titulo-derecho {
+    font-size: 22px;
+  }
+  .titulo-derecho-1 {
+    font-size: 22px;
+  }
+  .titulo-izquierdo {
+    font-size: 22px;
+  }
+  .contenedor-foto img {
+    height: 180px;
+    width: 180px;
+  }
+}
+/*Tablet*/
+@media (max-width: 991px) {
+  .decoracion-3 {
+    display: none;
+  }
+  .titulo-principal h1 {
+    font-size: 50px;
+  }
 }
