@@ -1,0 +1,43 @@
+html {
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  position: relative;
+  margin: 0;
+}
+
+/*Decoración*/
+.decoracion-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 350px;
+}
+
+.decoracion-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 350px;
+  z-index: -1;
+}
+
+.decoracion-3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 350px;
+  z-index: -1;
+}
+
+/*Contenedor principal*/
+main {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  column-gap: 40px;
+  margin: 0px auto;
+  max-width: 1200px;
+  padding: 30px;
+}
