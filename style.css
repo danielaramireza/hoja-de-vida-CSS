@@ -41,3 +41,140 @@ main {
   max-width: 1200px;
   padding: 30px;
 }
+
+/*Sección de la columna izquierda*/
+.contenedor-foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-foto img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #c9697c;
+  padding: 5px;
+  border: 16px solid #f3d8db;
+  position: relative;
+  bottom: -60px;
+}
+
+.informacion-general {
+  background-color: #f3d8db;
+  border-radius: 24px;
+  padding: 40px 20px;
+}
+
+.datos {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+
+.contenedor-datos img {
+  width: 30px;
+  height: 30px;
+}
+
+.contenedor-datos a {
+  color: black;
+}
+
+.titulo-izquierdo {
+  background-color: white;
+  border-radius: 20px;
+  padding: 6px;
+  text-align: center;
+}
+
+/*Barras de progreso de habilidades e idiomas*/
+.barra-progreso {
+  width: 100%;
+  height: 7px;
+  border-radius: 7px;
+  background: white;
+  overflow: hidden;
+}
+
+.valor-barra-progreso {
+  height: 7px;
+  background-color: #c9697c;
+}
+
+.tabla {
+  width: 100%;
+}
+
+.tabla tr td:first-child {
+  width: 30%;
+}
+
+/*Redes sociales*/
+.logos {
+  display: flex;
+  justify-content: center;
+}
+
+.logos img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Intereses */
+.lista-intereses {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+
+.lista-intereses img {
+  width: 16px;
+  height: 16px;
+}
+
+.lista-intereses p {
+  margin: 0;
+}
+
+/*Formulario*/
+#email {
+  border-radius: 20px;
+  padding: 6px;
+  width: calc(100% - 12px);
+  border: none;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#mensaje {
+  border-radius: 20px;
+  padding: 6px;
+  width: calc(100% - 12px);
+  border: none;
+  margin-top: 15px;
+}
+
+.contenedor-boton {
+  text-align: center;
+}
+
+.boton {
+  border-radius: 20px;
+  margin-top: 10px;
+  background: #c9697c;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #f3d8db;
+  border: 1px solid #c9697c;
+  color: #c9697c;
+}
