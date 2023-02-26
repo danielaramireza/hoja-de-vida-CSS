@@ -178,3 +178,65 @@ main {
   border: 1px solid #c9697c;
   color: #c9697c;
 }
+
+/*Sección de la columna derecha*/
+
+.titulo-principal {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.titulo-derecho {
+  background-color: #f3d8db;
+  border-radius: 20px;
+  padding: 6px;
+  text-align: center;
+}
+
+.titulo-derecho-1 {
+  background-color: #c9697c;
+  border-radius: 20px;
+  padding: 6px;
+  text-align: center;
+  color: white;
+}
+
+.perfil {
+  text-align: justify;
+}
+
+.educacion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+}
+
+.educacion h3,
+.educacion h4,
+.educacion p {
+  margin: 10px 0;
+}
+
+.experiencia-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.fecha {
+  text-align: right;
+}
+
+.funciones {
+  text-align: justify;
+}
+
+.experiencia-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.experiencia-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
