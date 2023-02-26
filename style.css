@@ -54,9 +54,9 @@ main {
   width: 300px;
   border-radius: 50%;
   object-fit: cover;
-  background-color: #c9697c;
-  padding: 5px;
-  border: 16px solid #f3d8db;
+  background-color: white;
+  padding: 8px;
+  border: 20px solid #f3d8db;
   position: relative;
   bottom: -60px;
 }
